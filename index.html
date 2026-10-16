@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VOLTERRA — Discord Development &amp; Community Setup</title>
+  <meta name="description" content="Explore VOLTERRA Discord server development: custom server layouts, ticket and verification systems, roles, bot configuration, and polished community setups. Join our Discord to discuss your project and request a quote.">
+  <meta property="og:title" content="VOLTERRA — Discord Development">
+  <meta property="og:description" content="Premium Discord server development by VOLTERRA. Explore project showcases, compare service packages, and request a custom quote in Discord.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="assets/volterra-hero.jpg">
+  <meta name="twitter:image" content="assets/volterra-hero.jpg">
+  <meta name="theme-color" content="#0b0a10">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div data-tsd-source="/src/routes/index.tsx:53:10" id="home">
+ <header class="site-header" data-tsd-source="/src/routes/index.tsx:54:5">
+  <div class="container header-inner" data-tsd-source="/src/routes/index.tsx:54:37">
+   <a aria-label="VOLTERRA home" class="brand" data-tsd-source="/src/routes/index.tsx:23:27" href="#home">
+    <span aria-hidden="true" class="brand-mark" data-tsd-source="/src/routes/index.tsx:23:88">
+     V
+    </span>
+    VOLTERRA
+   </a>
+   <nav aria-label="Main navigation" class="desktop-nav" data-tsd-source="/src/routes/index.tsx:54:86">
+    <a data-tsd-source="/src/routes/index.tsx:54:175" href="#about">
+     About
+    </a>
+    <a data-tsd-source="/src/routes/index.tsx:54:175" href="#services">
+     Services
+    </a>
+    <a data-tsd-source="/src/routes/index.tsx:54:175" href="#portfolio">
+     Portfolio
+    </a>
+    <a data-tsd-source="/src/routes/index.tsx:54:175" href="#packages">
+     Packages
+    </a>
+    <a data-tsd-source="/src/routes/index.tsx:54:175" href="#faq">
+     FAQ
+    </a>
+   </nav>
+   <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action primary header-cta" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+    <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+     <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+     </path>
+    </svg>
+    Join Discord
+    <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+     <path d="M7 7h10v10">
+     </path>
+     <path d="M7 17 17 7">
+     </path>
+    </svg>
+   </a>
+   <button aria-controls="mobile-nav" aria-expanded="false" aria-label="Open menu" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 menu-toggle icon-button" data-tsd-source="/src/routes/index.tsx:54:284">
+    <svg aria-hidden="true" class="lucide lucide-menu" data-tsd-source="/src/routes/index.tsx:54:509" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+     <path d="M4 5h16">
+     </path>
+     <path d="M4 12h16">
+     </path>
+     <path d="M4 19h16">
+     </path>
+    </svg>
+   </button>
+  </div>
+  <nav aria-label="Mobile navigation" class="mobile-nav" data-tsd-source="/src/routes/index.tsx:54:533" id="mobile-nav">
+   <a data-tsd-source="/src/routes/index.tsx:54:667" href="#about">
+    About
+   </a>
+   <a data-tsd-source="/src/routes/index.tsx:54:667" href="#services">
+    Services
+   </a>
+   <a data-tsd-source="/src/routes/index.tsx:54:667" href="#portfolio">
+    Portfolio
+   </a>
+   <a data-tsd-source="/src/routes/index.tsx:54:667" href="#packages">
+    Packages
+   </a>
+   <a data-tsd-source="/src/routes/index.tsx:54:667" href="#faq">
+    FAQ
+   </a>
+   <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action primary" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+    <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+     <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+     </path>
+    </svg>
+    Join Discord
+    <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+     <path d="M7 7h10v10">
+     </path>
+     <path d="M7 17 17 7">
+     </path>
+    </svg>
+   </a>
+  </nav>
+ </header>
+ <main data-tsd-source="/src/routes/index.tsx:55:5">
+  <section aria-labelledby="hero-title" class="hero has-3d" data-tsd-source="/src/routes/index.tsx:56:7">
+   <div class="volterra-orb" aria-hidden="true"><span class="orb-ring orb-ring-one"></span><span class="orb-ring orb-ring-two"></span><span class="orb-core"></span><span class="orb-spark orb-spark-one"></span><span class="orb-spark orb-spark-two"></span></div>
+   <img alt="Sculptural silver V illuminated with electric purple light" class="hero-art" data-tsd-source="/src/routes/index.tsx:56:62" fetchpriority="high" height="1024" src="assets/volterra-hero.jpg" width="1920"/>
+   <div class="container hero-content" data-tsd-source="/src/routes/index.tsx:56:214">
+    <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+     <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+     </span>
+     Discord development, elevated
+    </div>
+    <h1 data-tsd-source="/src/routes/index.tsx:56:302" id="hero-title">
+     VOLTERRA
+     <span data-tsd-source="/src/routes/index.tsx:56:330">
+      Built for your
+      <br data-tsd-source="/src/routes/index.tsx:56:350"/>
+      <em data-tsd-source="/src/routes/index.tsx:56:356">
+       community.
+      </em>
+     </span>
+    </h1>
+    <p class="hero-description" data-tsd-source="/src/routes/index.tsx:56:387">
+     Thoughtful server design. Seamless community experiences.
+     <br data-tsd-source="/src/routes/index.tsx:56:476"/>
+     We turn your Discord vision into a space that feels
+     <br class="desktop-break" data-tsd-source="/src/routes/index.tsx:56:533"/>
+     organized, professional, and unmistakably yours.
+    </p>
+    <div class="hero-actions" data-tsd-source="/src/routes/index.tsx:56:618">
+     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action primary" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+      <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+       <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+       </path>
+      </svg>
+      Join Our Discord
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action outline" data-tsd-source="/src/routes/index.tsx:56:725" href="#portfolio">
+      Explore Portfolio
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:56:763" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <p class="hero-caption" data-tsd-source="/src/routes/index.tsx:56:798">
+     <svg aria-hidden="true" class="lucide lucide-shield-check" data-tsd-source="/src/routes/index.tsx:56:826" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+      </path>
+      <path d="m9 12 2 2 4-4">
+      </path>
+     </svg>
+     Purpose-built servers. No unnecessary complexity.
+    </p>
+   </div>
+  </section>
+  <div class="capability-strip" data-tsd-source="/src/routes/index.tsx:57:7">
+   <div class="container capabilities" data-tsd-source="/src/routes/index.tsx:57:41">
+    <span data-tsd-source="/src/routes/index.tsx:57:81">
+     <svg aria-hidden="true" class="lucide lucide-server" data-tsd-source="/src/routes/index.tsx:57:87" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <rect height="8" rx="2" ry="2" width="20" x="2" y="2">
+      </rect>
+      <rect height="8" rx="2" ry="2" width="20" x="2" y="14">
+      </rect>
+      <line x1="6" x2="6.01" y1="6" y2="6">
+      </line>
+      <line x1="6" x2="6.01" y1="18" y2="18">
+      </line>
+     </svg>
+     Server Development
+    </span>
+    <i data-tsd-source="/src/routes/index.tsx:57:122">
+     ✦
+    </i>
+    <span data-tsd-source="/src/routes/index.tsx:57:130">
+     <svg aria-hidden="true" class="lucide lucide-shield-check" data-tsd-source="/src/routes/index.tsx:57:136" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+      </path>
+      <path d="m9 12 2 2 4-4">
+      </path>
+     </svg>
+     Roles &amp; Permissions
+    </span>
+    <i data-tsd-source="/src/routes/index.tsx:57:177">
+     ✦
+    </i>
+    <span data-tsd-source="/src/routes/index.tsx:57:185">
+     <svg aria-hidden="true" class="lucide lucide-bot" data-tsd-source="/src/routes/index.tsx:57:191" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 8V4H8">
+      </path>
+      <rect height="12" rx="2" width="16" x="4" y="8">
+      </rect>
+      <path d="M2 14h2">
+      </path>
+      <path d="M20 14h2">
+      </path>
+      <path d="M15 13v2">
+      </path>
+      <path d="M9 13v2">
+      </path>
+     </svg>
+     Bot Configuration
+    </span>
+    <i data-tsd-source="/src/routes/index.tsx:57:222">
+     ✦
+    </i>
+    <span data-tsd-source="/src/routes/index.tsx:57:230">
+     <svg aria-hidden="true" class="lucide lucide-ticket" data-tsd-source="/src/routes/index.tsx:57:236" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z">
+      </path>
+      <path d="M13 5v2">
+      </path>
+      <path d="M13 17v2">
+      </path>
+      <path d="M13 11v2">
+      </path>
+     </svg>
+     Ticket Systems
+    </span>
+    <i data-tsd-source="/src/routes/index.tsx:57:267">
+     ✦
+    </i>
+    <span data-tsd-source="/src/routes/index.tsx:57:275">
+     <svg aria-hidden="true" class="lucide lucide-sparkles" data-tsd-source="/src/routes/index.tsx:57:281" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+      </path>
+      <path d="M20 2v4">
+      </path>
+      <path d="M22 4h-4">
+      </path>
+      <circle cx="4" cy="20" r="2">
+      </circle>
+     </svg>
+     Custom Embeds
+    </span>
+   </div>
+  </div>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:58:7" id="about">
+   <div class="container about-layout" data-tsd-source="/src/routes/index.tsx:58:60">
+    <div data-tsd-source="/src/routes/index.tsx:58:100">
+     <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+      <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+      </span>
+      The name behind the build
+     </div>
+     <h2 data-tsd-source="/src/routes/index.tsx:58:149">
+      More than a server.
+      <br data-tsd-source="/src/routes/index.tsx:58:172"/>
+      A place to belong.
+     </h2>
+    </div>
+    <div class="about-copy" data-tsd-source="/src/routes/index.tsx:58:207">
+     <p data-tsd-source="/src/routes/index.tsx:58:235">
+      VOLTERRA is a Discord development brand focused on professional server setup and well-organized communities. From the first channel to the final permission, we bring structure and a consistent identity to your space.
+     </p>
+     <p data-tsd-source="/src/routes/index.tsx:58:458">
+      Whether you're bringing gamers together or creating a home for your community, we focus on the details that make your server welcoming for members and manageable for your team.
+     </p>
+     <div class="about-principles" data-tsd-source="/src/routes/index.tsx:58:641">
+      <span data-tsd-source="/src/routes/index.tsx:58:675">
+       <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:58:681" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6 9 17l-5-5">
+        </path>
+       </svg>
+       Intentional structure
+      </span>
+      <span data-tsd-source="/src/routes/index.tsx:58:718">
+       <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:58:724" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6 9 17l-5-5">
+        </path>
+       </svg>
+       Community-first design
+      </span>
+      <span data-tsd-source="/src/routes/index.tsx:58:762">
+       <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:58:768" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6 9 17l-5-5">
+        </path>
+       </svg>
+       Your identity
+      </span>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:59:7" id="services">
+   <div class="container" data-tsd-source="/src/routes/index.tsx:59:63">
+    <div class="section-heading" data-tsd-source="/src/routes/index.tsx:59:90">
+     <div data-tsd-source="/src/routes/index.tsx:59:123">
+      <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+       <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+       </span>
+       What we do
+      </div>
+      <h2 data-tsd-source="/src/routes/index.tsx:59:157">
+       Every detail. Connected.
+      </h2>
+     </div>
+     <p class="section-intro" data-tsd-source="/src/routes/index.tsx:59:196">
+      The essentials of a professional Discord community,
+      <br data-tsd-source="/src/routes/index.tsx:59:276"/>
+      configured to work together.
+     </p>
+    </div>
+    <div class="service-grid" data-tsd-source="/src/routes/index.tsx:59:320">
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-server" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <rect height="8" rx="2" ry="2" width="20" x="2" y="2">
+        </rect>
+        <rect height="8" rx="2" ry="2" width="20" x="2" y="14">
+        </rect>
+        <line x1="6" x2="6.01" y1="6" y2="6">
+        </line>
+        <line x1="6" x2="6.01" y1="18" y2="18">
+        </line>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Server Development
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       A thoughtfully structured Discord server, built around your community and its purpose.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Channel organization · Community setup
+      </div>
+     </article>
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-shield-check" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+        </path>
+        <path d="m9 12 2 2 4-4">
+        </path>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Roles &amp; Permissions
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       Clear role hierarchies and access boundaries that keep every space in the right hands.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Role setup · Private channels · Verification
+      </div>
+     </article>
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-bot" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 8V4H8">
+        </path>
+        <rect height="12" rx="2" width="16" x="4" y="8">
+        </rect>
+        <path d="M2 14h2">
+        </path>
+        <path d="M20 14h2">
+        </path>
+        <path d="M15 13v2">
+        </path>
+        <path d="M9 13v2">
+        </path>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Bot Configuration
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       Configure existing Discord bots for the tools your members and staff actually need.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Bot setup · Moderation · Logging
+      </div>
+     </article>
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-ticket" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z">
+        </path>
+        <path d="M13 5v2">
+        </path>
+        <path d="M13 17v2">
+        </path>
+        <path d="M13 11v2">
+        </path>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Support &amp; Ticket Systems
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       Organized support flows for questions, service requests, and community feedback.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Ticket panels · Support categories
+      </div>
+     </article>
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-lock-keyhole" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="16" r="1">
+        </circle>
+        <rect height="12" rx="2" width="18" x="3" y="10">
+        </rect>
+        <path d="M7 10V7a5 5 0 0 1 10 0v3">
+        </path>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Moderation &amp; Security
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       Practical moderation tools, verification flows, and logging for day-to-day management.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Auto-moderation · Activity logs · Access control
+      </div>
+     </article>
+     <article class="service-card" data-tsd-source="/src/routes/index.tsx:59:454">
+      <div class="icon-well" data-tsd-source="/src/routes/index.tsx:59:508">
+       <svg aria-hidden="true" class="lucide lucide-sparkles" data-tsd-source="/src/routes/index.tsx:59:535" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+        </path>
+        <path d="M20 2v4">
+        </path>
+        <path d="M22 4h-4">
+        </path>
+        <circle cx="4" cy="20" r="2">
+        </circle>
+       </svg>
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:59:549">
+       Custom Embeds
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:59:573">
+       Branded welcome messages, clear information panels, and consistent server presentation.
+      </p>
+      <div class="service-detail" data-tsd-source="/src/routes/index.tsx:59:594">
+       Welcome messages · Rules · Information
+      </div>
+     </article>
+    </div>
+   </div>
+  </section>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:60:7" id="portfolio">
+   <div class="container" data-tsd-source="/src/routes/index.tsx:60:64">
+    <div class="section-heading" data-tsd-source="/src/routes/index.tsx:60:91">
+     <div data-tsd-source="/src/routes/index.tsx:60:124">
+      <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+       <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+       </span>
+       Selected work
+      </div>
+      <h2 data-tsd-source="/src/routes/index.tsx:60:161">
+       Real servers. Real craft.
+      </h2>
+     </div>
+     <a class="section-link" data-tsd-source="/src/routes/index.tsx:60:201" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+      Discuss your project
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:60:310" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <div class="portfolio-grid" data-tsd-source="/src/routes/index.tsx:60:336">
+     <article class="project-card" data-tsd-source="/src/routes/index.tsx:60:452">
+      <button aria-label="View Gaming Hub gallery" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 project-preview" data-project="0" data-tsd-source="/src/routes/index.tsx:60:505">
+       <img alt="Gaming Hub genuine Discord screenshot" data-tsd-source="/src/routes/index.tsx:60:660" height="574" loading="lazy" src="assets/screenshot-06.webp" width="856"/>
+       <span class="preview-toolbar" data-tsd-source="/src/routes/index.tsx:60:791">
+        <svg aria-hidden="true" class="lucide lucide-expand" data-tsd-source="/src/routes/index.tsx:60:825" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m15 15 6 6">
+         </path>
+         <path d="m15 9 6-6">
+         </path>
+         <path d="M21 16v5h-5">
+         </path>
+         <path d="M21 8V3h-5">
+         </path>
+         <path d="M3 16v5h5">
+         </path>
+         <path d="m3 21 6-6">
+         </path>
+         <path d="M3 8V3h5">
+         </path>
+         <path d="M9 9 3 3">
+         </path>
+        </svg>
+        View gallery ·
+        <!-- -->
+        6
+        <!-- -->
+        images
+       </span>
+      </button>
+      <div class="project-content" data-tsd-source="/src/routes/index.tsx:60:896">
+       <div class="project-category" data-tsd-source="/src/routes/index.tsx:60:929">
+        Gaming community
+       </div>
+       <div class="project-title-line" data-tsd-source="/src/routes/index.tsx:60:987">
+        <h3 data-tsd-source="/src/routes/index.tsx:60:1023">
+         Gaming Hub
+        </h3>
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:60:1046" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+       <p data-tsd-source="/src/routes/index.tsx:60:1068">
+        A dedicated gaming space with organized game channels, private team areas, community roles, and a branded welcome experience.
+       </p>
+       <div class="feature-tags" data-tsd-source="/src/routes/index.tsx:60:1096">
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Channel architecture
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Role hierarchy
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Tickets &amp; bot setup
+        </span>
+       </div>
+      </div>
+     </article>
+     <article class="project-card" data-tsd-source="/src/routes/index.tsx:60:452">
+      <button aria-label="View VOLTERRA Community gallery" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 project-preview" data-project="1" data-tsd-source="/src/routes/index.tsx:60:505">
+       <img alt="VOLTERRA Community genuine Discord screenshot" data-tsd-source="/src/routes/index.tsx:60:660" height="582" loading="lazy" src="assets/screenshot-08.webp" width="603"/>
+       <span class="preview-toolbar" data-tsd-source="/src/routes/index.tsx:60:791">
+        <svg aria-hidden="true" class="lucide lucide-expand" data-tsd-source="/src/routes/index.tsx:60:825" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m15 15 6 6">
+         </path>
+         <path d="m15 9 6-6">
+         </path>
+         <path d="M21 16v5h-5">
+         </path>
+         <path d="M21 8V3h-5">
+         </path>
+         <path d="M3 16v5h5">
+         </path>
+         <path d="m3 21 6-6">
+         </path>
+         <path d="M3 8V3h5">
+         </path>
+         <path d="M9 9 3 3">
+         </path>
+        </svg>
+        View gallery ·
+        <!-- -->
+        5
+        <!-- -->
+        images
+       </span>
+      </button>
+      <div class="project-content" data-tsd-source="/src/routes/index.tsx:60:896">
+       <div class="project-category" data-tsd-source="/src/routes/index.tsx:60:929">
+        Development community
+       </div>
+       <div class="project-title-line" data-tsd-source="/src/routes/index.tsx:60:987">
+        <h3 data-tsd-source="/src/routes/index.tsx:60:1023">
+         VOLTERRA Community
+        </h3>
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:60:1046" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+       <p data-tsd-source="/src/routes/index.tsx:60:1068">
+        Our own community, bringing service discovery, project discussions, support tickets, and developer roles into one organized space.
+       </p>
+       <div class="feature-tags" data-tsd-source="/src/routes/index.tsx:60:1096">
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Service channels
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Support tickets
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Welcome embeds
+        </span>
+       </div>
+      </div>
+     </article>
+     <article class="project-card" data-tsd-source="/src/routes/index.tsx:60:452">
+      <button aria-label="View VEXEN.EXE gallery" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 project-preview" data-project="2" data-tsd-source="/src/routes/index.tsx:60:505">
+       <img alt="VEXEN.EXE genuine Discord screenshot" data-tsd-source="/src/routes/index.tsx:60:660" height="583" loading="lazy" src="assets/screenshot-26.webp" width="129"/>
+       <span class="preview-toolbar" data-tsd-source="/src/routes/index.tsx:60:791">
+        <svg aria-hidden="true" class="lucide lucide-expand" data-tsd-source="/src/routes/index.tsx:60:825" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m15 15 6 6">
+         </path>
+         <path d="m15 9 6-6">
+         </path>
+         <path d="M21 16v5h-5">
+         </path>
+         <path d="M21 8V3h-5">
+         </path>
+         <path d="M3 16v5h5">
+         </path>
+         <path d="m3 21 6-6">
+         </path>
+         <path d="M3 8V3h5">
+         </path>
+         <path d="M9 9 3 3">
+         </path>
+        </svg>
+        View gallery ·
+        <!-- -->
+        7
+        <!-- -->
+        images
+       </span>
+      </button>
+      <div class="project-content" data-tsd-source="/src/routes/index.tsx:60:896">
+       <div class="project-category" data-tsd-source="/src/routes/index.tsx:60:929">
+        Gaming &amp; guild server
+       </div>
+       <div class="project-title-line" data-tsd-source="/src/routes/index.tsx:60:987">
+        <h3 data-tsd-source="/src/routes/index.tsx:60:1023">
+         VEXEN.EXE
+        </h3>
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:60:1046" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+       <p data-tsd-source="/src/routes/index.tsx:60:1068">
+        A gaming-focused setup with verification, guild and esports areas, private voice channels, logging, and a coordinated bot configuration.
+       </p>
+       <div class="feature-tags" data-tsd-source="/src/routes/index.tsx:60:1096">
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Verification
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Guild &amp; team channels
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Logging &amp; bot setup
+        </span>
+       </div>
+      </div>
+     </article>
+     <article class="project-card" data-tsd-source="/src/routes/index.tsx:60:452">
+      <button aria-label="View Cuties gallery" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 project-preview" data-project="3" data-tsd-source="/src/routes/index.tsx:60:505">
+       <img alt="Cuties genuine Discord screenshot" data-tsd-source="/src/routes/index.tsx:60:660" height="328" loading="lazy" src="assets/screenshot-24.webp" width="340"/>
+       <span class="preview-toolbar" data-tsd-source="/src/routes/index.tsx:60:791">
+        <svg aria-hidden="true" class="lucide lucide-expand" data-tsd-source="/src/routes/index.tsx:60:825" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="m15 15 6 6">
+         </path>
+         <path d="m15 9 6-6">
+         </path>
+         <path d="M21 16v5h-5">
+         </path>
+         <path d="M21 8V3h-5">
+         </path>
+         <path d="M3 16v5h5">
+         </path>
+         <path d="m3 21 6-6">
+         </path>
+         <path d="M3 8V3h5">
+         </path>
+         <path d="M9 9 3 3">
+         </path>
+        </svg>
+        View gallery ·
+        <!-- -->
+        8
+        <!-- -->
+        images
+       </span>
+      </button>
+      <div class="project-content" data-tsd-source="/src/routes/index.tsx:60:896">
+       <div class="project-category" data-tsd-source="/src/routes/index.tsx:60:929">
+        Social community
+       </div>
+       <div class="project-title-line" data-tsd-source="/src/routes/index.tsx:60:987">
+        <h3 data-tsd-source="/src/routes/index.tsx:60:1023">
+         Cuties
+        </h3>
+        <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:60:1046" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M7 7h10v10">
+         </path>
+         <path d="M7 17 17 7">
+         </path>
+        </svg>
+       </div>
+       <p data-tsd-source="/src/routes/index.tsx:60:1068">
+        A welcoming social server with public and private community spaces, a detailed role hierarchy, verification, and a custom welcome message.
+       </p>
+       <div class="feature-tags" data-tsd-source="/src/routes/index.tsx:60:1096">
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Community layout
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Role organization
+        </span>
+        <span class="feature-tag" data-tsd-source="/src/routes/index.tsx:60:1159">
+         Verification &amp; welcome
+        </span>
+       </div>
+      </div>
+     </article>
+    </div>
+    <p class="portfolio-note" data-tsd-source="/src/routes/index.tsx:60:1254">
+     Original project screenshots. Existing third-party bots are configured, not claimed as our own creations.
+    </p>
+   </div>
+  </section>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:61:7" id="packages">
+   <div class="container" data-tsd-source="/src/routes/index.tsx:61:63">
+    <div class="section-heading" data-tsd-source="/src/routes/index.tsx:61:90">
+     <div data-tsd-source="/src/routes/index.tsx:61:123">
+      <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+       <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+       </span>
+       Find your fit
+      </div>
+      <h2 data-tsd-source="/src/routes/index.tsx:61:160">
+       Your server. Your scope.
+      </h2>
+     </div>
+     <p class="section-intro" data-tsd-source="/src/routes/index.tsx:61:199">
+      A clear starting point, customized around your needs.
+      <br data-tsd-source="/src/routes/index.tsx:61:281"/>
+      Let's work out the right setup together.
+     </p>
+    </div>
+    <div class="packages-grid" data-tsd-source="/src/routes/index.tsx:61:337">
+     <article class="package" data-tsd-source="/src/routes/index.tsx:61:394">
+      <div class="package-label" data-tsd-source="/src/routes/index.tsx:61:472">
+       <svg aria-hidden="true" class="lucide lucide-layers" data-tsd-source="/src/routes/index.tsx:61:535" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+        </path>
+        <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12">
+        </path>
+        <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17">
+        </path>
+       </svg>
+       The essential foundation
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:61:622">
+       Normal Package
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:61:680">
+       An organized starting point for your community.
+      </p>
+      <div class="quote" data-tsd-source="/src/routes/index.tsx:61:797">
+       Custom Quote
+      </div>
+      <div class="quote-note" data-tsd-source="/src/routes/index.tsx:61:838">
+       Based on your requirements and agreed scope
+      </div>
+      <ul data-tsd-source="/src/routes/index.tsx:61:915">
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Server structure &amp; channel organization
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Core roles &amp; permission setup
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Essential existing bot configuration
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Welcome, rules &amp; information channels
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Configuration checks before delivery
+       </li>
+      </ul>
+      <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action outline" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+       <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+        <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+        </path>
+       </svg>
+       Request a Quote
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </article>
+     <article class="package professional" data-tsd-source="/src/routes/index.tsx:61:394">
+      <div class="package-label" data-tsd-source="/src/routes/index.tsx:61:472">
+       <svg aria-hidden="true" class="lucide lucide-sparkles" data-tsd-source="/src/routes/index.tsx:61:510" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="15" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+        </path>
+        <path d="M20 2v4">
+        </path>
+        <path d="M22 4h-4">
+        </path>
+        <circle cx="4" cy="20" r="2">
+        </circle>
+       </svg>
+       A more complete setup
+      </div>
+      <h3 data-tsd-source="/src/routes/index.tsx:61:622">
+       Professional Package
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:61:680">
+       A detailed setup for a more developed community.
+      </p>
+      <div class="quote" data-tsd-source="/src/routes/index.tsx:61:797">
+       Custom Quote
+      </div>
+      <div class="quote-note" data-tsd-source="/src/routes/index.tsx:61:838">
+       Based on your requirements and agreed scope
+      </div>
+      <ul data-tsd-source="/src/routes/index.tsx:61:915">
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Everything in the Normal Package
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Detailed roles &amp; permission configuration
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Ticket system &amp; support categories
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Verification &amp; moderation configuration
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Logging &amp; security bot setup
+       </li>
+       <li data-tsd-source="/src/routes/index.tsx:61:1377">
+        <svg aria-hidden="true" class="lucide lucide-check" data-tsd-source="/src/routes/index.tsx:61:1395" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 6 9 17l-5-5">
+         </path>
+        </svg>
+        Custom welcome &amp; information embeds
+       </li>
+      </ul>
+      <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action primary" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+       <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+        <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+        </path>
+       </svg>
+       Request a Quote
+       <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 7h10v10">
+        </path>
+        <path d="M7 17 17 7">
+        </path>
+       </svg>
+      </a>
+     </article>
+    </div>
+    <p class="package-disclaimer" data-tsd-source="/src/routes/index.tsx:61:1500">
+     Final features and delivery expectations are agreed before work begins. Third-party bot limitations may apply.
+    </p>
+   </div>
+  </section>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:62:7" id="process">
+   <div class="container" data-tsd-source="/src/routes/index.tsx:62:62">
+    <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+     <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+     </span>
+     From idea to community
+    </div>
+    <h2 data-tsd-source="/src/routes/index.tsx:62:130">
+     A considered process.
+    </h2>
+    <div class="process-grid" data-tsd-source="/src/routes/index.tsx:62:160">
+     <div class="process-step" data-tsd-source="/src/routes/index.tsx:62:610">
+      <span class="step-number" data-tsd-source="/src/routes/index.tsx:62:652">
+       0
+       <!-- -->
+       1
+      </span>
+      <h3 data-tsd-source="/src/routes/index.tsx:62:701">
+       Requirements
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:62:717">
+       We discuss your community, goals, and the features you need.
+      </p>
+      <svg aria-hidden="true" class="lucide lucide-arrow-right" data-tsd-source="/src/routes/index.tsx:62:744" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14">
+       </path>
+       <path d="m12 5 7 7-7 7">
+       </path>
+      </svg>
+     </div>
+     <div class="process-step" data-tsd-source="/src/routes/index.tsx:62:610">
+      <span class="step-number" data-tsd-source="/src/routes/index.tsx:62:652">
+       0
+       <!-- -->
+       2
+      </span>
+      <h3 data-tsd-source="/src/routes/index.tsx:62:701">
+       Planning
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:62:717">
+       We agree the structure, configuration, and project scope.
+      </p>
+      <svg aria-hidden="true" class="lucide lucide-arrow-right" data-tsd-source="/src/routes/index.tsx:62:744" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14">
+       </path>
+       <path d="m12 5 7 7-7 7">
+       </path>
+      </svg>
+     </div>
+     <div class="process-step" data-tsd-source="/src/routes/index.tsx:62:610">
+      <span class="step-number" data-tsd-source="/src/routes/index.tsx:62:652">
+       0
+       <!-- -->
+       3
+      </span>
+      <h3 data-tsd-source="/src/routes/index.tsx:62:701">
+       Development
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:62:717">
+       We set up channels, roles, bots, and the agreed features.
+      </p>
+      <svg aria-hidden="true" class="lucide lucide-arrow-right" data-tsd-source="/src/routes/index.tsx:62:744" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14">
+       </path>
+       <path d="m12 5 7 7-7 7">
+       </path>
+      </svg>
+     </div>
+     <div class="process-step" data-tsd-source="/src/routes/index.tsx:62:610">
+      <span class="step-number" data-tsd-source="/src/routes/index.tsx:62:652">
+       0
+       <!-- -->
+       4
+      </span>
+      <h3 data-tsd-source="/src/routes/index.tsx:62:701">
+       Testing
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:62:717">
+       We check permissions, member access, and configured flows.
+      </p>
+      <svg aria-hidden="true" class="lucide lucide-arrow-right" data-tsd-source="/src/routes/index.tsx:62:744" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M5 12h14">
+       </path>
+       <path d="m12 5 7 7-7 7">
+       </path>
+      </svg>
+     </div>
+     <div class="process-step" data-tsd-source="/src/routes/index.tsx:62:610">
+      <span class="step-number" data-tsd-source="/src/routes/index.tsx:62:652">
+       0
+       <!-- -->
+       5
+      </span>
+      <h3 data-tsd-source="/src/routes/index.tsx:62:701">
+       Delivery
+      </h3>
+      <p data-tsd-source="/src/routes/index.tsx:62:717">
+       We hand over the setup and walk through what was configured.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="section section-rule" data-tsd-source="/src/routes/index.tsx:63:7" id="reviews">
+   <div class="container reviews-layout" data-tsd-source="/src/routes/index.tsx:63:62">
+    <div data-tsd-source="/src/routes/index.tsx:63:104">
+     <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+      <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+      </span>
+      Community feedback
+     </div>
+     <h2 data-tsd-source="/src/routes/index.tsx:63:146">
+      Trust is earned.
+      <br data-tsd-source="/src/routes/index.tsx:63:166"/>
+      Not invented.
+     </h2>
+    </div>
+    <div class="reviews-empty" data-tsd-source="/src/routes/index.tsx:63:196">
+     <svg aria-hidden="true" class="lucide lucide-quote" data-tsd-source="/src/routes/index.tsx:63:227" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+     </svg>
+     <h3 data-tsd-source="/src/routes/index.tsx:63:236">
+      Let the work speak first.
+     </h3>
+     <p data-tsd-source="/src/routes/index.tsx:63:270">
+      No verified client reviews have been provided yet.
+      <br data-tsd-source="/src/routes/index.tsx:63:323"/>
+      For now, explore the actual projects above.
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="section" data-tsd-source="/src/routes/index.tsx:64:7" id="faq">
+   <div class="container faq-layout" data-tsd-source="/src/routes/index.tsx:64:45">
+    <div class="faq-intro" data-tsd-source="/src/routes/index.tsx:64:83">
+     <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+      <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+      </span>
+      A little clarity
+     </div>
+     <h2 data-tsd-source="/src/routes/index.tsx:64:145">
+      Good questions.
+      <br data-tsd-source="/src/routes/index.tsx:64:164"/>
+      Straight answers.
+     </h2>
+     <p data-tsd-source="/src/routes/index.tsx:64:192">
+      Something else on your mind? Let's talk about it on Discord.
+     </p>
+     <a class="section-link" data-tsd-source="/src/routes/index.tsx:64:259" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+      Ask us on Discord
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:64:365" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <div class="faq-list" data-tsd-source="/src/routes/index.tsx:64:391">
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       What does VOLTERRA specialize in?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       Discord server development and professional community setup: channels, roles, permissions, existing bot configuration, ticket systems, verification, moderation, logging, and custom embeds.
+      </p>
+     </details>
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       What is the difference between the packages?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       The Normal Package covers the core structure and setup. The Professional Package includes a more detailed configuration with ticket systems, verification, moderation, logging, and custom embeds. We agree the exact scope together on Discord.
+      </p>
+     </details>
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       Can you customize an existing server?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       Yes. We can discuss reorganizing your channels, refining roles and permissions, or configuring your existing bots. Share your current setup and what you want to change on Discord.
+      </p>
+     </details>
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       How much will my project cost?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       Both packages use a custom quote. The quote depends on your requirements and the agreed scope; no fixed price or delivery guarantee is assumed.
+      </p>
+     </details>
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       Do you build custom-coded bots?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       The services shown here cover configuration of existing Discord bots. Custom-coded bot development is not included in the listed packages.
+      </p>
+     </details>
+     <details data-tsd-source="/src/routes/index.tsx:64:451">
+      <summary data-tsd-source="/src/routes/index.tsx:64:475">
+       How do I get started?
+       <svg aria-hidden="true" class="lucide lucide-plus" data-tsd-source="/src/routes/index.tsx:64:494" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5 12h14">
+        </path>
+        <path d="M12 5v14">
+        </path>
+       </svg>
+      </summary>
+      <p data-tsd-source="/src/routes/index.tsx:64:512">
+       Join our Discord server, describe your community and the features you need, and request a custom quote. We will discuss your requirements before agreeing on the work.
+      </p>
+     </details>
+    </div>
+   </div>
+  </section>
+  <section class="contact-section" data-tsd-source="/src/routes/index.tsx:65:7" id="contact">
+   <span class="contact-line" data-tsd-source="/src/routes/index.tsx:65:57">
+   </span>
+   <span class="contact-line right" data-tsd-source="/src/routes/index.tsx:65:90">
+   </span>
+   <div class="container" data-tsd-source="/src/routes/index.tsx:65:129">
+    <div class="contact-inner" data-tsd-source="/src/routes/index.tsx:65:156">
+     <div class="eyebrow" data-tsd-source="/src/routes/index.tsx:24:66">
+      <span class="eyebrow-dot" data-tsd-source="/src/routes/index.tsx:24:91">
+      </span>
+      Your next community starts here
+     </div>
+     <h2 data-tsd-source="/src/routes/index.tsx:65:237">
+      Let's build something
+      <br data-tsd-source="/src/routes/index.tsx:65:262"/>
+      <span data-tsd-source="/src/routes/index.tsx:65:268">
+       worth joining.
+      </span>
+     </h2>
+     <p data-tsd-source="/src/routes/index.tsx:65:300">
+      Interested in working with VOLTERRA? Join our Discord server to discuss your project, explore our services, and request a custom quote. We'll discuss your requirements and help you choose the right solution.
+     </p>
+     <a class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-9 px-4 py-2 action primary" data-tsd-source="/src/routes/index.tsx:22:268" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+      <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+       <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+       </path>
+      </svg>
+      Join Our Discord
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:22:357" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+     <p class="supporting-line" data-tsd-source="/src/routes/index.tsx:65:529">
+      Have a project in mind? Join us on Discord and let's discuss it.
+     </p>
+    </div>
+   </div>
+  </section>
+ </main>
+ <footer data-tsd-source="/src/routes/index.tsx:67:5">
+  <div class="container" data-tsd-source="/src/routes/index.tsx:67:13">
+   <div class="footer-main" data-tsd-source="/src/routes/index.tsx:67:40">
+    <div class="footer-brand" data-tsd-source="/src/routes/index.tsx:67:69">
+     <a aria-label="VOLTERRA home" class="brand" data-tsd-source="/src/routes/index.tsx:23:27" href="#home">
+      <span aria-hidden="true" class="brand-mark" data-tsd-source="/src/routes/index.tsx:23:88">
+       V
+      </span>
+      VOLTERRA
+     </a>
+     <p data-tsd-source="/src/routes/index.tsx:67:108">
+      Discord development. Thoughtfully built.
+     </p>
+    </div>
+    <nav aria-label="Footer navigation" class="footer-links" data-tsd-source="/src/routes/index.tsx:67:161">
+     <a data-tsd-source="/src/routes/index.tsx:67:222" href="#about">
+      About
+     </a>
+     <a data-tsd-source="/src/routes/index.tsx:67:248" href="#services">
+      Services
+     </a>
+     <a data-tsd-source="/src/routes/index.tsx:67:280" href="#portfolio">
+      Portfolio
+     </a>
+     <a data-tsd-source="/src/routes/index.tsx:67:314" href="#packages">
+      Packages
+     </a>
+     <a class="footer-discord" data-tsd-source="/src/routes/index.tsx:67:346" href="https://discord.gg/ubvSjDJTKx" rel="noopener noreferrer" target="_blank">
+      <svg aria-hidden="true" data-tsd-source="/src/routes/index.tsx:21:33" fill="currentColor" viewbox="0 0 24 24">
+       <path d="M19.7 5.1a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.3.7 13.4 1.1 17.5a18 18 0 0 0 5.5 2.8l1.1-1.8-1.6-.8.4-.3c3.5 1.6 7.6 1.6 11.1 0l.4.3-1.6.8 1.1 1.8a18 18 0 0 0 5.4-2.8c.6-4.8-.9-8.9-3.2-12.4ZM8.5 14.9c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Zm7 0c-1.1 0-1.9-1-1.9-2.2s.8-2.2 1.9-2.2 1.9 1 1.9 2.2-.8 2.2-1.9 2.2Z" data-tsd-source="/src/routes/index.tsx:21:97">
+       </path>
+      </svg>
+      Discord
+      <svg aria-hidden="true" class="lucide lucide-arrow-up-right" data-tsd-source="/src/routes/index.tsx:67:459" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13" xmlns="http://www.w3.org/2000/svg">
+       <path d="M7 7h10v10">
+       </path>
+       <path d="M7 17 17 7">
+       </path>
+      </svg>
+     </a>
+    </nav>
+   </div>
+   <div class="footer-bottom" data-tsd-source="/src/routes/index.tsx:67:501">
+    <span data-tsd-source="/src/routes/index.tsx:67:532">
+     ©
+     <!-- -->
+     2026
+     <!-- -->
+     VOLTERRA. All rights reserved.
+    </span>
+    <span data-tsd-source="/src/routes/index.tsx:67:604">
+     Built with purpose. Made for community.
+    </span>
+   </div>
+  </div>
+ </footer>
+</div>
+
+</body>
+</html>
